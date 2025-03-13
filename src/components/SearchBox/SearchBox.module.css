@@ -1,0 +1,35 @@
+.searchBox {
+  width: 100%;
+}
+
+.searchBox h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.searchBox input {
+  width: 400px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.2s;
+  color: black;
+  background: transparent;
+  margin-bottom: 40px;
+}
+
+.searchBox input:focus {
+  border-color: blue;
+}
+
+.searchBox input:-webkit-autofill,
+.searchBox input:-webkit-autofill:hover,
+.searchBox input:-webkit-autofill:focus,
+.searchBox input:-webkit-autofill:active {
+  background-color: ivory !important;
+  color: black !important;
+  box-shadow: 0 0 0px 1000px ivory inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}

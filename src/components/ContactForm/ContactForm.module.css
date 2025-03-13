@@ -1,0 +1,58 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+  margin: 40px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.contactForm label {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contactForm input {
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  color: black;
+  background: transparent;
+  transition: border 0.3s;
+}
+
+.contactForm input:focus,
+input:active {
+  border-bottom: 1px solid blue;
+}
+
+.contactForm input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+.contactForm span {
+  color: blue;
+}
+
+.contactForm button {
+  margin-top: 30px;
+  background: grey;
+  border: 2px solid grey;
+  color: ivory;
+  transition: border-color 0.2s;
+}
+
+.contactForm button:hover {
+  color: blue;
+  border-color: black;
+  background: transparent;
+}

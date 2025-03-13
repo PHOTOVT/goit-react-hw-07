@@ -1,0 +1,12 @@
+.contactList ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+}
+
+.contactList li {
+  display: flex;
+  list-style-type: none;
+}
